@@ -15,9 +15,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    public void git(){
-        System.out.println("...");
-    }
 
     //添加用户
     @PostMapping("/")
